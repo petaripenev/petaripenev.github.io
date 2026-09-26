@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petar Penev</title>
+  <meta name="description" content="Petar Penev, PhD – Bioinformatics Team Lead at Eligo Bioscience. Previously a postdoc in Jill Banfield's lab at UC Berkeley and a Fulbright scholar with a PhD in bioinformatics from Georgia Tech.">
+  <meta name="author" content="Petar Penev">
+  <meta property="og:title" content="Petar Penev">
+  <meta property="og:description" content="Bioinformatics, metagenomics, phages and ribosome evolution.">
+  <meta property="og:image" content="https://petarpenev.com/assets/ppenev_face.png">
+  <meta property="og:url" content="https://petarpenev.com/">
+  <link rel="canonical" href="https://petarpenev.com/">
+  <link rel="preload" href="assets/roboto-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1 class="logo"><a href="#top">Petar Penev</a></h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="banner" id="top">
+  <div class="container">
+    <img src="assets/ppenev_face.png" alt="Portrait of Petar Penev" width="300" height="236">
+    <div>
+      <h2>Building methods to study life</h2>
+      <p>Bioinformatics Team Lead at Eligo Bioscience &middot; Paris, France</p>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-text">
+        <p>
+          I am a computational biologist from Bulgaria. I lead the bioinformatics team at
+          <a href="https://eligo.bio/" target="_blank" rel="noopener">Eligo Bioscience</a> in Paris,
+          which I joined in 2024 as a Senior Bioinformatics Scientist. Eligo is pioneering a novel class of
+          medicines, targeting the human microbiome.
+        </p>
+        <p>
+          Before Eligo, I was a postdoctoral fellow in Jill Banfield's lab at UC Berkeley, where I studied
+          phages, extrachromosomal elements and soil microbiomes through genome-resolved metagenomics.
+          I earned my PhD in bioinformatics at the Georgia Institute of Technology as a Fulbright scholar,
+          working on ribosome evolution with Loren Williams and Anton Petrov.
+        </p>
+        <p>
+          I got into bioinformatics because I noticed a cycle of information between the wet lab and the dry lab,
+          and I still believe it pays to know both fields equally well.
+        </p>
+      </div>
+
+      <div class="journey-head">
+        <h3>Path so far</h3>
+        <button type="button" id="journey-play" class="journey-play">&#9654; Play the journey</button>
+      </div>
+      <p class="journey-hint">Hover over or tap a city or a step to see what I did there.</p>
+      <div class="journey">
+        <div class="journey-map">
+          <svg id="career-map" role="group" aria-label="Map of career path: Sofia, Wageningen, Atlanta, Berkeley, Paris"></svg>
+          <div id="map-card" class="map-card" aria-live="polite"></div>
+        </div>
+        <ol class="journey-steps">
+          <li><button type="button" data-stop="sofia" data-city="Sofia" data-when="Undergraduate"
+            data-label="Sofia University &ldquo;St. Kliment Ohridski&rdquo;" data-role="BSc in Molecular Biology"
+            data-detail="Where it started: molecular biology in the wet lab, in my home country of Bulgaria.">
+            <span class="when">Undergraduate</span><span class="where">Sofia, Bulgaria</span>
+            <span class="what">BSc Molecular Biology, Sofia University</span></button></li>
+          <li><button type="button" data-stop="wageningen" data-city="Wageningen" data-when="One year"
+            data-label="Wageningen University" data-role="MSc studies, Molecular Life Sciences"
+            data-detail="Worked in Dolf Weijers&rsquo; plant development biochemistry lab on new interactors of the Auxin Response Factor in &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;.">
+            <span class="when">One year</span><span class="where">Wageningen, Netherlands</span>
+            <span class="what">MSc studies, Molecular Life Sciences</span></button></li>
+          <li><button type="button" data-stop="atlanta" data-city="Atlanta" data-when="2016 &ndash; 2021"
+            data-label="Georgia Institute of Technology" data-role="MS &amp; PhD in Bioinformatics &middot; Fulbright scholar"
+            data-detail="Experimental phylogenetics with Eric Gaucher, then a PhD on ribosome evolution with Loren Williams and Anton Petrov (TwinCons, ProteoVision, Asgard rRNA expansions).">
+            <span class="when">2016 &ndash; 2021</span><span class="where">Atlanta, USA</span>
+            <span class="what">MS &amp; PhD Bioinformatics, Georgia Tech</span></button></li>
+          <li><button type="button" data-stop="berkeley" data-city="Berkeley" data-when="2021 &ndash; 2024"
+            data-label="UC Berkeley, Banfield Lab" data-role="Postdoctoral Fellow"
+            data-detail="Genome-resolved metagenomics of phages, plasmids and Borgs, archaeal ribosomes, and stable isotope probing of soil microbiomes.">
+            <span class="when">2021 &ndash; 2024</span><span class="where">Berkeley, USA</span>
+            <span class="what">Postdoc, Banfield Lab, UC Berkeley</span></button></li>
+          <li><button type="button" data-stop="paris" data-city="Paris" data-when="2024 &ndash; present"
+            data-label="Eligo Bioscience" data-role="Senior Bioinformatics Scientist (2024) &rarr; Bioinformatics Team Lead (2026)"
+            data-detail="Eligo is pioneering a novel class of medicines, targeting the human microbiome.">
+            <span class="when">2024 &ndash; present</span><span class="where">Paris, France</span>
+            <span class="what">Senior Scientist &rarr; Team Lead (2026), Eligo Bioscience</span></button></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="container">
+      <h2 class="section-title">Research</h2>
+      <div class="about-text">
+          <h3>Microbiome engineering</h3>
+          <p>
+            I joined <a href="https://eligo.bio/" target="_blank" rel="noopener">Eligo Bioscience</a> in 2024
+            as a Senior Bioinformatics Scientist and have led its bioinformatics team since 2026. Eligo is pioneering a novel class of medicines,
+            targeting the human microbiome.
+          </p>
+
+          <h3>Phages, archaea and soil metagenomics</h3>
+          <p>
+            In the <a href="https://banfieldlab.berkeley.edu/" target="_blank" rel="noopener">Banfield lab</a>
+            I studied how phages and extrachromosomal elements (plasmids, Borgs) handle genetic information,
+            including phage stop-codon recoding, phage-encoded ribosomal proteins and elements of
+            <i>Methanoperedens</i> archaea. I also used metagenomics-informed stable isotope probing to find
+            which soil microbes are active across depth and seasons, and worked on the structure and
+            processing of archaeal ribosomes.
+          </p>
+
+          <h3>Ribosome evolution</h3>
+          <p>
+            My PhD focused on how the ribosome evolved: supersized rRNA expansion segments in Asgard archaea,
+            tools for comparing deep sequence alignments (TwinCons) and web servers for visualizing ribosomal
+            proteins and RNAs (ProteoVision, RiboVision2).
+          </p>
+
+          <h3>Earlier work</h3>
+          <p>
+            In Eric Gaucher's lab I compared phylogenetic methods for ancestral protein reconstruction.
+            In Dolf Weijers' lab in Wageningen I searched for new interactors of the Auxin Response Factor
+            in <i>Arabidopsis thaliana</i>.
+          </p>
+          <p>
+            Code from my papers and projects is on
+            <a href="https://github.com/petaripenev" target="_blank" rel="noopener">GitHub</a>.
+          </p>
+        </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <p class="pub-note">
+        Full and up-to-date list on
+        <a href="https://scholar.google.com/citations?user=qDdE__UAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        and <a href="https://orcid.org/0000-0002-9027-3824" target="_blank" rel="noopener">ORCID</a>.
+      </p>
+
+      <h3>Preprints</h3>
+      <ol class="pubs" reversed>
+        <li>
+          <span class="title">The origin and evolution of archaeal Borg extrachromosomal elements</span>
+          <span class="authors">Shi L.-D., <b>Penev P.I.</b>, Kolody B.C., Miloslavich L., Lei S., Sachdeva R., … Hug L.A., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.64898/2026.05.22.727314" target="_blank" rel="noopener">bioRxiv (2026)</a>
+        </li>
+        <li>
+          <span class="title">Microbial autotrophy is widespread across soils and most prevalent in deep and saturated environments</span>
+          <span class="authors">Kuhn A.N., Jaffe A.L., <b>Penev P.I.</b>, Creamer K.E., Kolody B.C., Tasoff P.M., Voutsinos M., Pett-Ridge J., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.64898/2026.05.21.726994" target="_blank" rel="noopener">bioRxiv (2026)</a>
+        </li>
+        <li>
+          <span class="title">Engineered orthogonal translation systems from metagenomic libraries expand the genetic code</span>
+          <span class="authors">Seki K., Nguyen M.T.A., <b>Penev P.I.</b>, Banfield J.F., Isaacs F.J., Jewett M.C.</span>
+          <a class="venue" href="https://doi.org/10.1101/2025.10.30.685624" target="_blank" rel="noopener">bioRxiv (2025)</a>
+        </li>
+        <li>
+          <span class="title">The active subset of grassland soil microbiomes changes with soil depth, water availability and prominently features predatory bacteria and episymbionts</span>
+          <span class="authors"><b>Penev P.I.</b>, Estera-Molina K., Allen G.M., Sachdeva R., Lei S., Law K.K., Hoff J., Blazewicz S.J., Pett-Ridge J., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.1101/2024.12.19.629468" target="_blank" rel="noopener">bioRxiv (2024)</a><span class="tag">first author</span>
+        </li>
+      </ol>
+
+      <h3>Peer-reviewed articles</h3>
+      <ol class="pubs" reversed>
+        <li>
+          <span class="title">Circularization of 23S rRNA but not 16S rRNA within archaeal ribosomes</span>
+          <span class="authors">Shi L.-D., <b>Penev P.I.</b>, Nissley A.J., Nayak D.D., Sachdeva R., Cate J.H.D., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.1186/s13059-025-03903-0" target="_blank" rel="noopener">Genome Biology (2026)</a>
+        </li>
+        <li>
+          <span class="title">Structure of an archaeal ribosome reveals a divergent active site and hibernation factor</span>
+          <span class="authors">Nissley A.J., Shulgina Y., Kivimae R.W., Downing B.E., <b>Penev P.I.</b>, Banfield J.F., Nayak D.D., Cate J.H.D.</span>
+          <a class="venue" href="https://doi.org/10.1038/s41564-025-02065-w" target="_blank" rel="noopener">Nature Microbiology (2025)</a>
+        </li>
+        <li>
+          <span class="title">RiboVision2: A web server for advanced visualization of ribosomal RNAs</span>
+          <span class="authors">McCann H.M., Meade C.D., Banerjee B., <b>Penev P.I.</b>, Williams L.D., Petrov A.S.</span>
+          <a class="venue" href="https://doi.org/10.1016/j.jmb.2024.168556" target="_blank" rel="noopener">J. Mol. Biol. (2024)</a>
+        </li>
+        <li>
+          <span class="title">Methanotrophic <i>Methanoperedens</i> archaea host diverse and interacting extrachromosomal elements</span>
+          <span class="authors">Shi L.-D., West-Roberts J., Schoelmerich M.C., <b>Penev P.I.</b>, Chen L., Amano Y., Lei S., Sachdeva R., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.1038/s41564-024-01740-8" target="_blank" rel="noopener">Nature Microbiology (2024)</a>
+        </li>
+        <li>
+          <span class="title">Chapter 5: Major biological innovations in the history of life on Earth</span>
+          <span class="authors">Bozdag G.O., Szeinbaum N., Conlin P.L., Chen K., Fos S.M., Garcia A., <b>Penev P.I.</b>, Schaible G.A., Trubl G.</span>
+          <a class="venue" href="https://doi.org/10.1089/ast.2021.0119" target="_blank" rel="noopener">Astrobiology (2024)</a>
+        </li>
+        <li>
+          <span class="title">Chapter 1: The Astrobiology Primer 3.0</span>
+          <span class="authors">Schaible M.J., Szeinbaum N., Bozdag G.O., … <b>Penev P.I.</b>, … Young A.</span>
+          <a class="venue" href="https://doi.org/10.1089/ast.2021.0129" target="_blank" rel="noopener">Astrobiology (2024)</a>
+        </li>
+        <li>
+          <span class="title">Rare ribosomal RNA sequences from archaea stabilize the bacterial ribosome</span>
+          <span class="authors">Nissley A.J., <b>Penev P.I.</b>, Watson Z.L., Banfield J.F., Cate J.H.D.</span>
+          <a class="venue" href="https://doi.org/10.1093/nar/gkac1273" target="_blank" rel="noopener">Nucleic Acids Research (2023)</a>
+        </li>
+        <li>
+          <span class="title">A widespread group of large plasmids in methanotrophic <i>Methanoperedens</i> archaea</span>
+          <span class="authors">Schoelmerich M.C., Ouboter H.T., Sachdeva R., <b>Penev P.I.</b>, Amano Y., West-Roberts J., Welte C.U., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.1038/s41467-022-34588-9" target="_blank" rel="noopener">Nature Communications (2022)</a>
+        </li>
+        <li>
+          <span class="title">AbGradCon 2021: lessons in digital meetings, international collaboration, and interdisciplinarity in astrobiology</span>
+          <span class="authors">Jia T.Z., Johnson-Finn K.N., Alian O.M., Bonati I., Fujishima K., Grefenstette N., Heenatigala T., Li Y., Noda N., <b>Penev P.I.</b>, Prondzinsky P., Smith H.B.</span>
+          <a class="venue" href="https://doi.org/10.1017/S1473550422000258" target="_blank" rel="noopener">Int. J. Astrobiology (2022)</a>
+        </li>
+        <li>
+          <span class="title">Widespread stop-codon recoding in bacteriophages may regulate translation of lytic genes</span>
+          <span class="authors">Borges A.L., Lou Y.C., Sachdeva R., Al-Shayeb B., <b>Penev P.I.</b>, Jaffe A.L., Lei S., Santini J.M., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.1038/s41564-022-01128-6" target="_blank" rel="noopener">Nature Microbiology (2022)</a>
+        </li>
+        <li>
+          <span class="title">Phage-encoded ribosomal protein S21 expression is linked to late-stage phage replication</span>
+          <span class="authors">Chen L.-X., Jaffe A.L., Borges A.L., <b>Penev P.I.</b>, Nelson T.C., Warren L.A., Banfield J.F.</span>
+          <a class="venue" href="https://doi.org/10.1038/s43705-022-00111-w" target="_blank" rel="noopener">ISME Communications (2022)</a>
+        </li>
+        <li>
+          <span class="title">TwinCons: Conservation score for uncovering deep sequence similarity and divergence</span>
+          <span class="authors"><b>Penev P.I.</b>, Alvarez-Carreño C., Smith E., Petrov A.S., Williams L.D.</span>
+          <a class="venue" href="https://doi.org/10.1371/journal.pcbi.1009541" target="_blank" rel="noopener">PLoS Comp. Biol. (2021)</a><span class="tag">first author</span>
+        </li>
+        <li>
+          <span class="title">Fold evolution before LUCA: Common ancestry of SH3 domains and OB domains</span>
+          <span class="authors">Alvarez-Carreño C., <b>Penev P.I.</b>, Petrov A.S., Williams L.D.</span>
+          <a class="venue" href="https://doi.org/10.1093/molbev/msab240" target="_blank" rel="noopener">Mol. Biol. Evol. (2021)</a>
+        </li>
+        <li>
+          <span class="title">ProteoVision: web server for advanced visualization of ribosomal proteins</span>
+          <span class="authors"><b>Penev P.I.</b>, McCann H.M., Meade C.D., Maddala A., Bernier C.R., Chivukula V.L., Ahmad M., Gulen B., Sharma A., Alvarez-Carreño C., Williams L.D., Petrov A.S.</span>
+          <a class="venue" href="https://doi.org/10.1093/nar/gkab351" target="_blank" rel="noopener">Nucleic Acids Research (2021)</a><span class="tag">first author</span>
+        </li>
+        <li>
+          <span class="title">Supersized ribosomal RNA expansion segments in Asgard archaea</span>
+          <span class="authors"><b>Penev P.I.</b>, Fakhretaha-Aval S., Patel V.J., Cannone J.J., Gutell R.R., Petrov A.S., Williams L.D., Glass J.B.</span>
+          <a class="venue" href="https://doi.org/10.1093/gbe/evaa170" target="_blank" rel="noopener">Genome Biol. Evol. (2020)</a><span class="tag">first author</span>
+        </li>
+        <li>
+          <span class="title">A blueprint for academic laboratories to produce SARS-CoV-2 quantitative RT-PCR test kits</span>
+          <span class="authors">Mascuch S.J., Fakhretaha-Aval S., Bowman J.C., … <b>Penev P.I.</b>, … Williams L.D., Lieberman R.L.</span>
+          <a class="venue" href="https://doi.org/10.1074/jbc.RA120.015434" target="_blank" rel="noopener">J. Biol. Chem. (2020)</a>
+        </li>
+        <li>
+          <span class="title">Root of the tree: The significance, evolution, and origins of the ribosome</span>
+          <span class="authors">Bowman J.C., Petrov A.S., Frenkel-Pinter M., <b>Penev P.I.</b>, Williams L.D.</span>
+          <a class="venue" href="https://doi.org/10.1021/acs.chemrev.9b00742" target="_blank" rel="noopener">Chemical Reviews (2020)</a>
+        </li>
+        <li>
+          <span class="title">Profusion of G-quadruplexes on both subunits of metazoan ribosomes</span>
+          <span class="authors">Mestre-Fos S., <b>Penev P.I.</b>, Richards J.C., Dean W.L., Gray R.D., Chaires J.B., Williams L.D.</span>
+          <a class="venue" href="https://doi.org/10.1371/journal.pone.0226177" target="_blank" rel="noopener">PLoS ONE (2019)</a>
+        </li>
+        <li>
+          <span class="title">G-quadruplexes in human ribosomal RNA</span>
+          <span class="authors">Mestre-Fos S., <b>Penev P.I.</b>, Suttapitugsakul S., Hu M., Ito C., Petrov A.S., Wartell R.M., Wu R., Williams L.D.</span>
+          <a class="venue" href="https://doi.org/10.1016/j.jmb.2019.03.010" target="_blank" rel="noopener">J. Mol. Biol. (2019)</a>
+        </li>
+        <li>
+          <span class="title">Circular permutation obscures universality of a ribosomal protein</span>
+          <span class="authors">Kovacs N.A., <b>Penev P.I.</b>, Venapally A., Petrov A.S., Williams L.D.</span>
+          <a class="venue" href="https://doi.org/10.1007/s00239-018-9869-1" target="_blank" rel="noopener">J. Mol. Evol. (2018)</a>
+        </li>
+        <li>
+          <span class="title">Translation: The universal structural core of life</span>
+          <span class="authors">Bernier C.R., Petrov A.S., Kovacs N.A., <b>Penev P.I.</b>, Williams L.D.</span>
+          <a class="venue" href="https://doi.org/10.1093/molbev/msy101" target="_blank" rel="noopener">Mol. Biol. Evol. (2018)</a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p>The easiest way to reach me is through any of these:</p>
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/petar-penev-9613344b" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/petaripenev" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://scholar.google.com/citations?user=qDdE__UAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://orcid.org/0000-0002-9027-3824" target="_blank" rel="noopener">ORCID</a></li>
+        <li><a href="https://bsky.app/profile/ppenev.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <span>&copy; 2026 Petar Penev</span>
+  </div>
+</footer>
+
+<script src="assets/map-data.js" defer></script>
+<script src="career-map.js" defer></script>
+</body>
+</html>
